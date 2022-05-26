@@ -1,0 +1,12 @@
+###
+POST http://localhost:3977/api/v1/users/user HTTP/1.1
+Content-Type: application/json
+
+{
+  "name":"Santiago",
+  "lastname":"Galvis",
+  "email": "SantiagoGalvis@gmail.com",
+  "password": "!QAZxsw2",
+  "active": false
+}
+
